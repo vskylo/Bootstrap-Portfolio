@@ -1,0 +1,94 @@
+body{
+	background: url("images/concrete_seamless.png");
+}
+.navbar-default{
+	background: #fff
+}
+#your-name{
+	float: left;
+  	width: 250px;
+ 	height: 90px;
+  	font-family: Georgia, Times, "Times New Roman", serif;
+  	font-size: 30px;
+  	font-weight: 700;
+  	line-height: 90px;
+  	color: #fff;
+  	text-align: center;
+  	text-decoration: none;
+  	background: #4aaaa5;
+}
+
+#name1, #name2, #name3{
+	margin-top: 25px;
+	padding-left: 15px;
+  	margin-left: 15px;
+  	line-height: 18px;
+  	color: #999;
+  	text-decoration: none;
+  	border-left: 1px solid #efefef;
+  	font-size: 18px;
+}
+.panel-title,.panel-heading, .panel-default{
+}
+.panel-default{
+	padding-top: 30px;
+}
+
+.panel-body{
+	width: 90%;
+}
+
+.container{
+	background: #fff;
+}
+
+p{
+	font-size:20px;
+}
+
+h3{
+	font-family: Georgia, Times, "Times New Roman", serif;
+  	font-size: 30px;
+  	font-weight: 700;
+  	color: #4aaaa5;
+  	text-align: center;
+  	text-decoration: none;
+}
+
+#footer{
+	font-size:20px;
+	padding-top: 50px;
+	
+}
+
+.img-thumbnail {
+  position: relative;
+  float: left;
+  width: 274px;
+  margin: 20px 0 25px;
+  overflow: auto;
+}
+
+.img-thumbnail:nth-child(even) {
+  margin-right: 40px;
+}
+
+.img-thumbnail img {
+  width: 100%;
+  border: 0 none;
+  opacity: 0.8;
+}
+
+.img-thumbnail h3 {
+  position: absolute;
+  bottom: 20px;
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 0;
+  font-weight: 300;
+  line-height: 30px;
+  color: #fff;
+  text-align: center;
+  background: #4aaaa5;
+  border-bottom: 0;
+}
